@@ -1,0 +1,26 @@
+ion-col {
+  display: flex;
+  justify-content: center;
+}
+
+ion-button {
+  --border-radius: 10px;
+  /* Bordes redondeados */
+  --background: #3880ff;
+  /* Color de fondo personalizado */
+  --color: white;
+  /* Color de texto */
+  padding: 10px;
+  /* Espaciado dentro del botón */
+  font-size: 16px;
+  /* Tamaño de fuente */
+}
+
+p {
+  text-align: center;
+  /* Centrar el texto */
+  font-size: 18px;
+  /* Ajustar tamaño de texto */
+  margin-bottom: 20px;
+  /* Espaciado debajo del párrafo */
+}
