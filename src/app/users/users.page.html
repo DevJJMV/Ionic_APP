@@ -1,13 +1,35 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>users</ion-title>
+  <ion-toolbar color="secondary">
+    <ion-title>
+      <ion-icon name="person-circle-outline" slot="start"></ion-icon>
+      Users
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">users</ion-title>
+    <ion-toolbar color="secondary">
+      <ion-title size="large">
+        <ion-icon name="person-circle-outline" slot="start"></ion-icon>
+        Users
+      </ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <!-- Contenido único para la página de Users -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Manage Your Users</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      This page allows you to manage users. Add new users, update their information, or remove access.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Botón para añadir nuevo usuario -->
+  <ion-button expand="block" color="secondary">
+    <ion-icon name="person-add-outline" slot="start"></ion-icon>
+    Add New User
+  </ion-button>
 </ion-content>

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MenuController } from '@ionic/angular'; // Asegúrate de importar el MenuController
+import { MenuController } from '@ionic/angular';
 
 @Component({
   selector: 'app-root',
@@ -14,15 +14,7 @@ export class AppComponent {
 
   constructor(private menuCtrl: MenuController) {}
 
-  // Definir las funciones para abrir los menús
-  openFirstMenu() {
-    this.menuCtrl.open('first-menu');
-  }
-
-  openSecondMenu() {
-    this.menuCtrl.open('second-menu');
-  }
-
+  // Función para abrir el menú lateral "end"
   openEndMenu() {
     this.menuCtrl.open('end-menu');
   }

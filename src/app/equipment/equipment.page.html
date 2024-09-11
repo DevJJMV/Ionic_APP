@@ -1,13 +1,35 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>equipment</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>
+      <ion-icon name="hammer-outline" slot="start"></ion-icon>
+      Equipment
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">equipment</ion-title>
+    <ion-toolbar color="primary">
+      <ion-title size="large">
+        <ion-icon name="hammer-outline" slot="start"></ion-icon>
+        Equipment
+      </ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <!-- Contenido único para la página de Equipment -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Manage Your Equipment</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      This page allows you to manage and organize your equipment. Add, edit, or remove items as needed.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Botón para añadir nuevo equipo -->
+  <ion-button expand="block" color="primary">
+    <ion-icon name="add-circle-outline" slot="start"></ion-icon>
+    Add New Equipment
+  </ion-button>
 </ion-content>
